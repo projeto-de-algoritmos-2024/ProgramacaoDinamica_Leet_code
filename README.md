@@ -29,8 +29,6 @@ Codigo: [Solução](link da solução)<br>
 
 ![image](link para imagem)
 
-![image](https://github.com/user-attachments/assets/414ec62e-d243-499e-99ae-53cd8dd4f9bd)
-
 ### Exercício 3 - [NOME DO PROBLEMA](link do leet do problema)
 
 Dificuldade: Médio<br>
