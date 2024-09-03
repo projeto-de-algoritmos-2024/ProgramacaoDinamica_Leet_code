@@ -13,7 +13,7 @@
 Este repositório tem como objetivo a resolução de exercícios sobre programação dinâmica do [LeetCode](https://leetcode.com/), utilizando o conteúdo do sexto módulo Programação Dinâmica.
 
 ## Screenshots
-### Exercício 1 - [Number of Ways to Rearrange Sticks With K Sticks Visible]([link do leet do problema](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+### Exercício 1 - [Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 Dificuldade: Difícil<br>
 Problema: [Number of Ways to Rearrange Sticks With K Sticks Visible](link da descrição do problema)<br>
