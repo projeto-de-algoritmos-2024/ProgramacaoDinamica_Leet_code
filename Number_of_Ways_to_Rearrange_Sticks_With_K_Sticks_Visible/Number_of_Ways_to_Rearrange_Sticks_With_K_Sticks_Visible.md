@@ -1,62 +1,36 @@
-# 1627. Graph_Connectivity_With_Threshold
+# 1866. Number of Ways to Rearrange Sticks With K Sticks Visible
 
-We have ```n``` cities labeled from ```1``` to ```n```. Two different cities with labels ```x``` and ```y``` are directly connected by a bidirectional road if and only if ```x``` and ```y``` share a common divisor strictly greater than some ```threshold```. More formally, cities with labels ```x``` and ```y``` have a road between them if there exists an integer ```z``` such that all of the following are true:
+There are ```n``` uniquely-sized sticks whose lengths are integers from ```1``` to ```n```. You want to arrange the sticks such that exactly ```k``` sticks are visible from the left. A stick is visible from the left if there are no longer sticks to the left of it.
 
-- ```x % z == 0```,
-  
-- ```y % z == 0```, and
-  
-- ```z > threshold```.
+- For example, if the sticks are arranged ```[1,3,2,5,4]```, then the sticks with lengths ```1```, ```3```, and ```5``` are visible from the left.
 
-Given the two integers, ```n``` and ```threshold```, and an array of ```queries```, you must determine for each ```queries[i] = [ai, bi]``` if cities ```ai``` and ```bi``` are connected directly or indirectly. (i.e. there is some path between them).
-
-Return an array ```answer```, where ```answer.length == queries.length``` and ```answer[i]``` is ```true``` if for the ```ith``` query, there is a path between ```ai``` and ```bi```, or ```answer[i]``` is ```false``` if there is no path.
+Given ```n``` and ```k```, return the number of such arrangements. Since the answer may be large, return it modulo ```10^9 + 7```.
 
 # Example 1:
-![](https://github.com/projeto-de-algoritmos-2024/Grafos2_Leet_code/blob/045405acec61e381cba5d73603ec33234af445ca/Assets/E1.jpg)<br>
 ```
-Input: n = 6, threshold = 2, queries = [[1,4],[2,5],[3,6]]
-Output: [false,false,true]
-Explanation: The divisors for each number:
-1:   1
-2:   1, 2
-3:   1, 3
-4:   1, 2, 4
-5:   1, 5
-6:   1, 2, 3, 6
-Using the underlined divisors above the threshold, only cities 3 and 6 share a common divisor, so they are the only ones directly connected. The result of each query:
-[1,4]   1 is not connected to 4
-[2,5]   2 is not connected to 5
-[3,6]   3 is connected to 6 through path 3--6
+Input: n = 3, k = 2
+Output: 3
+Explanation: [1,3,2], [2,3,1], and [2,1,3] are the only arrangements such that exactly 2 sticks are visible.
+The visible sticks are underlined.
 ```
 
 # Example 2:
-![](https://github.com/projeto-de-algoritmos-2024/Grafos2_Leet_code/blob/045405acec61e381cba5d73603ec33234af445ca/Assets/E1.2.jpg)<br>
 ```
-Input: n = 6, threshold = 0, queries = [[4,5],[3,4],[3,2],[2,6],[1,3]]
-Output: [true,true,true,true,true]
-Explanation: The divisors for each number are the same as the previous example. However, since the threshold is 0, all divisors can be used. Since all numbers share 1 as a divisor, all cities are connected.
+Input: n = 5, k = 5
+Output: 1
+Explanation: [1,2,3,4,5] is the only arrangement such that all 5 sticks are visible.
+The visible sticks are underlined.
 ```
 
 # Example 3:
-![](https://github.com/projeto-de-algoritmos-2024/Grafos2_Leet_code/blob/045405acec61e381cba5d73603ec33234af445ca/Assets/E1.3.jpg)<br>
 ```
-Input: n = 5, threshold = 1, queries = [[4,5],[4,5],[3,2],[2,3],[3,4]]
-Output: [false,false,false,false,false]
-Explanation: Only cities 2 and 4 share a common divisor 2 which is strictly greater than the threshold 1, so they are the only ones directly connected.
-Please notice that there can be multiple queries for the same pair of nodes [x, y], and that the query [x, y] is equivalent to the query [y, x].
+Input: n = 20, k = 11
+Output: 647427950
+Explanation: There are 647427950 (mod 10^9 + 7) ways to rearrange the sticks such that exactly 11 sticks are visible.
 ```
 
 # Constraints:
 
-- ```2 <= n <= 10^4```
+- ```1 <= n <= 1000```
 
-- ```0 <= threshold <= n```
-
-- ```1 <= queries.length <= 10^5```
-
-- ```queries[i].length == 2```
-
-- ```1 <= ai, bi <= cities```
-
-- ```ai != bi```
+- ```1 <= k <= n```
