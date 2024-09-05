@@ -16,7 +16,7 @@ Este repositório tem como objetivo a resolução de exercícios sobre programa�
 ### Exercício 1 - [Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 Dificuldade: Difícil<br>
-Problema: [Number of Ways to Rearrange Sticks With K Sticks Visible](link da descrição do problema)<br>
+Problema: [Number of Ways to Rearrange Sticks With K Sticks Visible](Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible/Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible.md)<br>
 Codigo: [Solução](link da solução)<br>
 
 ![image](link para imagem)
