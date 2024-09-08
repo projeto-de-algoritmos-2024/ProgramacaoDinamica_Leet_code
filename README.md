@@ -17,9 +17,9 @@ Este repositório tem como objetivo a resolução de exercícios sobre programa�
 
 Dificuldade: Difícil<br>
 Problema: [Number of Ways to Rearrange Sticks With K Sticks Visible](Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible/Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible.md)<br>
-Codigo: [Solução](link da solução)<br>
+Codigo: [Solução](Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible/Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible.py)<br>
 
-![image](link para imagem)
+![image](Assets/Media_1.png)
 
 ### Exercício 2 - [NOME DO PROBLEMA](link do leet do problema)
 
