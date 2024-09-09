@@ -21,13 +21,13 @@ Codigo: [Solução](Number_of_Ways_to_Rearrange_Sticks_With_K_Sticks_Visible/Num
 
 ![image](Assets/Media_1.png)
 
-### Exercício 2 - [NOME DO PROBLEMA](link do leet do problema)
+### Exercício 2 - [Scramble String](https://leetcode.com/problems/scramble-string/description/)
 
 Dificuldade: Difícil<br>
-Problema: [NOME DO PROBLEMA](link da descrição do problema)<br>
-Codigo: [Solução](link da solução)<br>
+Problema: [Scramble String](Scramble_String/Scramble_String.md)<br>
+Codigo: [Solução](Scramble_String/Scramble_String.py)<br>
 
-![image](link para imagem)
+![imamge](Assets/Media_2.png)
 
 ### Exercício 3 - [Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)
 
