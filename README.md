@@ -33,9 +33,9 @@ Codigo: [Solução](Scramble_String/Scramble_String.py)<br>
 
 Dificuldade: Médio<br>
 Problema: [Minimum Number of Coins for Fruits](Minimum_Number_of_Coins_for_Fruits/Minimum_Number_of_Coins_for_Fruits.md)<br>
-Codigo: [Solução](link da solução)<br>
+Codigo: [Solução](Minimum_Number_of_Coins_for_Fruits/Minimum_Number_of_Coins_for_Fruits.py)<br>
 
-![image](link para imagem)
+![image](Assets/Media_3.png)
 
 ## Instalação 
 **Linguagem**: Python<br>
