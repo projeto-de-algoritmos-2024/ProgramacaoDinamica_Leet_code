@@ -29,7 +29,7 @@ Codigo: [Solução](link da solução)<br>
 
 ![image](link para imagem)
 
-### Exercício 3 - [Minimum Number of Coins for Fruits]([link do leet do problema](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)
+### Exercício 3 - [Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)
 
 Dificuldade: Médio<br>
 Problema: [Minimum Number of Coins for Fruits](Minimum_Number_of_Coins_for_Fruits/Minimum_Number_of_Coins_for_Fruits.md)<br>
