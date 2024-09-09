@@ -61,4 +61,4 @@ Codigo: [Solução](Minimum_Number_of_Coins_for_Fruits/Minimum_Number_of_Coins_f
 **Obs.:** Faça isso para cada codigo.
 
 ## Outros 
-**Apresentação da resolução dos exercícios:**
+**Apresentação da resolução dos exercícios:** https://youtu.be/oGNvofiZ6dQ
