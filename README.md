@@ -1,6 +1,6 @@
 # Exercícios LeetCode
 
-**Número da Lista**: 6<br>
+**Número da Lista**: 5<br>
 **Conteúdo da Disciplina**: Programação Dinâmica<br>
  
 ## Alunos
@@ -10,7 +10,7 @@
 | 20/2028973  | Tiago Albuquerque de Lima |
 
 ## Sobre 
-Este repositório tem como objetivo a resolução de exercícios sobre programação dinâmica do [LeetCode](https://leetcode.com/), utilizando o conteúdo do sexto módulo Programação Dinâmica.
+Este repositório tem como objetivo a resolução de exercícios sobre programação dinâmica do [LeetCode](https://leetcode.com/), utilizando o conteúdo do quinto módulo Programação Dinâmica.
 
 ## Screenshots
 ### Exercício 1 - [Number of Ways to Rearrange Sticks With K Sticks Visible](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
